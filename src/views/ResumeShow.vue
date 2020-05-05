@@ -15,6 +15,7 @@
                     "
                     alt="Circle Image"
                     class="img-raised rounded-circle img-fluid"
+                    width="200px"
                   />
                 </div>
                 <div class="name">
@@ -47,13 +48,30 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#works" role="tab" data-toggle="tab">
                       <i class="material-icons">palette</i>
-                      Work
+                      Experiences
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
-                      <i class="material-icons">favorite</i>
-                      Favorite
+                      <i class="material-icons">done</i>
+
+                      Skills
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                      <i class="material-icons">
+                        school
+                      </i>
+                      Education
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                      <i class="material-icons">
+                        folder_shared
+                      </i>
+                      Capstone
                     </a>
                   </li>
                 </ul>
