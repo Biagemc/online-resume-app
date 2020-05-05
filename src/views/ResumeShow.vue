@@ -40,26 +40,26 @@
               <div class="profile-tabs">
                 <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#studio" role="tab" data-toggle="tab">
+                    <a class="nav-link active" href="#personal" role="tab" data-toggle="tab">
                       <i class="material-icons">face</i>
                       Personal
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#works" role="tab" data-toggle="tab">
+                    <a class="nav-link" href="#experiences" role="tab" data-toggle="tab">
                       <i class="material-icons">palette</i>
                       Experiences
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                    <a class="nav-link" href="#skills" role="tab" data-toggle="tab">
                       <i class="material-icons">done</i>
 
                       Skills
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                    <a class="nav-link" href="#education" role="tab" data-toggle="tab">
                       <i class="material-icons">
                         school
                       </i>
@@ -67,7 +67,7 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#favorite" role="tab" data-toggle="tab">
+                    <a class="nav-link" href="#capstone" role="tab" data-toggle="tab">
                       <i class="material-icons">
                         folder_shared
                       </i>
@@ -79,44 +79,48 @@
             </div>
           </div>
           <div class="tab-content tab-space">
-            <div class="tab-pane active text-center gallery" id="studio">
+            <div class="tab-pane active text-center gallery" id="personal">
+              <!-- Insert content related to personal section -->
               <div class="row">
                 <div class="col-md-3 ml-auto">
-                  <img v-bind:src="'./public/assets/img/examples/studio-1.jpg'" class="rounded" />
-                  <img v-bind:src="'./public/assets/img/examples/studio-2.jpg'" class="rounded" />
+                  <p>Name: Chikondi</p>
                 </div>
-                <div class="col-md-3 mr-auto">
-                  <img v-bind:src="'./public/assets/img/examples/studio-5.jpg'" class="rounded" />
-                  <img v-bind:src="'./public/assets/img/examples/studio-4.jpg'" class="rounded" />
-                </div>
+                <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
-            <div class="tab-pane text-center gallery" id="works">
+            <!-- end of personal section -->
+            <div class="tab-pane text-center gallery" id="experiences">
+              <!-- Insert content related to experiences section -->
               <div class="row">
-                <div class="col-md-3 ml-auto">
-                  <img v-bind:src="'./public/assets/img/examples/olu-eletu.jpg'" class="rounded" />
-                  <img v-bind:src="'./public/assets/img/examples/clem-onojeghuo.jpg'" class="rounded" />
-                  <img v-bind:src="'./public/assets/img/examples/cynthia-del-rio.jpg'" class="rounded" />
-                </div>
-                <div class="col-md-3 mr-auto">
-                  <img v-bind:src="'./public/assets/img/examples/mariya-georgieva.jpg'" class="rounded" />
-                  <img v-bind:src="'./public/assets/img/examples/clem-onojegaw.jpg'" class="rounded" />
-                </div>
+                <div class="col-md-3 ml-auto"></div>
+                <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
-            <div class="tab-pane text-center gallery" id="favorite">
+            <!-- end of experiences section -->
+            <div class="tab-pane text-center gallery" id="skills">
+              <!-- Insert content related to skills section -->
               <div class="row">
-                <div class="col-md-3 ml-auto">
-                  <img v-bind:src="'./assets/img/examples/mariya-georgieva.jpg'" class="rounded" />
-                  <img v-bind:src="'./assets/img/examples/studio-3.jpg'" class="rounded" />
-                </div>
-                <div class="col-md-3 mr-auto">
-                  <img v-bind:src="'./assets/img/examples/clem-onojeghuo.jpg'" class="rounded" />
-                  <img v-bind:src="'./assets/img/examples/olu-eletu.jpg'" class="rounded" />
-                  <img v-bind:src="'./assets/img/examples/studio-1.jpg'" class="rounded" />
-                </div>
+                <div class="col-md-3 ml-auto"></div>
+                <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
+            <!-- end of skills section -->
+            <div class="tab-pane text-center gallery" id="education">
+              <!-- Insert content related to education section -->
+              <div class="row">
+                <div class="col-md-3 ml-auto"></div>
+                <div class="col-md-3 mr-auto"></div>
+              </div>
+            </div>
+            <!-- end of education section -->
+            <div class="tab-pane text-center gallery" id="capstone">
+              <!-- Insert content related to capstone section -->
+              <div class="row">
+                <div class="col-md-3 ml-auto"></div>
+                <div class="col-md-3 mr-auto"></div>
+              </div>
+            </div>
+            <!-- end of capstone section -->
           </div>
         </div>
       </div>
