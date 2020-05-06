@@ -127,6 +127,16 @@
               <!-- Insert content related to skills section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
+                <ul class="list-group">
+                <li class="list-group-item">Ruby</li>
+                <li class="list-group-item">Ruby on Rails</li>
+                <li class="list-group-item">Vue.js</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Github</li>
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">Java</li>
+              </ul>
                 <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
@@ -143,6 +153,15 @@
               <!-- Insert content related to capstone section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
+                <div class="jumbotron">
+                  <h1 class="display-4">Linguist VR</h1>
+                  <p class="lead">This is a VR application that allows the user to interact with envi- ronments and object in a foreign language.</p>
+                  <hr class="my-4">
+                  <p>The app was created using A-Frame, HTML, Ruby</p>
+                  <p class="lead">
+                    <a class="btn btn-primary btn-sm" href="https://github.com/chikondiman/vr_ed" role="button">Check it on Github</a>
+                  </p>
+                </div>
                 <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
