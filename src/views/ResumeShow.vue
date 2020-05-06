@@ -131,12 +131,19 @@
               </div>
             </div>
             <!-- end of skills section -->
-            <div class="tab-pane text-center gallery" id="education">
+            
+            <div class="tab-pane text-center gallery" id="education"  >
+              <div v-bind:key="education.id" v-for="education in educations">
               <!-- Insert content related to education section -->
-              <div class="row">
-                <div class="col-md-3 ml-auto"></div>
-                <div class="col-md-3 mr-auto"></div>
-              </div>
+                  <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <h1 class="display-6">{{education.institution}}</h1>
+                    <p class="lead">{{education.description}}</p>
+                    <p class="lead">{{education.start_date}} to {{education.end_date}} </p>
+                  </div>
+            </div>
+                                          
+            </div>
             </div>
             <!-- end of education section -->
             <div class="tab-pane text-center gallery" id="capstone">
@@ -176,6 +183,19 @@ export default {
       github_url: "http://www.github.com/chikondiman",
       photo_url:
         "https://avatars0.githubusercontent.com/u/61444123?s=460&u=cbf80e36ca02b777f8be3f04e25507647f29d19b&v=4",
+      educations: [{
+        institution: "Andrews University",
+        description: "Bachelor of Arts(BA), Secondary Education of Teaching",
+        start_date: "2009",
+        end_date: "2014"
+      },
+      {
+        institution: "Andrews University",
+        description: "Bachelor of Arts(BA), Secondary Education of Teaching",
+        start_date: "2009",
+        end_date: "2014"
+      }
+      ]
     };
   },
   // created: function() {
