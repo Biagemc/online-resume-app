@@ -153,6 +153,15 @@
               <!-- Insert content related to capstone section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
+                <div class="jumbotron">
+                  <h1 class="display-4">Linguist VR</h1>
+                  <p class="lead">This is a VR application that allows the user to interact with envi- ronments and object in a foreign language.</p>
+                  <hr class="my-4">
+                  <p>The app was created using A-Frame, HTML, Ruby</p>
+                  <p class="lead">
+                    <a class="btn btn-primary btn-sm" href="https://github.com/chikondiman/vr_ed" role="button">Check it on Github</a>
+                  </p>
+                </div>
                 <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
