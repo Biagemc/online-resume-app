@@ -30,9 +30,7 @@
           </div>
           <div class="description text-center">
             <p>
-              An artist of considerable range, Chet Faker &#x2014; the name taken by Melbourne-raised, Brooklyn-based
-              Nick Murphy &#x2014; writes, performs and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure.
+              I’ve always been fascinated by linguistics: syntax and grammar structure/concepts have always been intellectually stimulating. When I considered these same concepts on a computing linguistics level I became drawn to the thought of studying how to write programs. From an entrepreneurial standpoint in education, I sought to study the ramifications of teaching computting linguistics simultaneously alongside reading, writing and math from the beginning of a student's educational journey at the kindergarten level continuing on to the 12th grade.
             </p>
           </div>
           <div class="row">
@@ -49,6 +47,7 @@
                     <a class="nav-link" href="#experiences" role="tab" data-toggle="tab">
                       <i class="material-icons">palette</i>
                       Experiences
+                      
                     </a>
                   </li>
                   <li class="nav-item">
@@ -93,7 +92,18 @@
               <!-- Insert content related to experiences section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
-                <div class="col-md-3 mr-auto"></div>
+                <div>
+                  <div class="jumbotron">
+                    <h1 class="display-4">Actualize Coding Bootcamp</h1>
+                    <p class="lead">Apprentice</p>
+                    <hr class="my-4">
+                    <p>Chicago, Illinois, United States</p>
+                    <p>Actualize is an intensive 18 week program focusing on full stack web development. I was challenged every day to learn and use new technologies and ideas. A lot of focus was on how to think like a developer.</p>
+                    <p class="lead">
+                      <a class="btn btn-primary btn-sm" href="https://anyonecanlearntocode.com/" role="button">Website</a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- end of experiences section -->
