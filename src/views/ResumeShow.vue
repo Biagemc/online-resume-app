@@ -10,29 +10,34 @@
               <div class="profile">
                 <div class="avatar">
                   <img
-                    v-bind:src="
-                      'https://avatars0.githubusercontent.com/u/61444123?s=460&u=cbf80e36ca02b777f8be3f04e25507647f29d19b&v=4'
-                    "
+                    v-bind:src="photo_url"
                     alt="Circle Image"
                     class="img-raised rounded-circle img-fluid"
                     width="200px"
                   />
                 </div>
                 <div class="name">
-                  <h3 class="title">Christian Louboutin</h3>
-                  <h6>Designer</h6>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                  <a href="#pablo" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a>
+                  <h3 class="title">{{ first_name }} {{ last_name }}</h3>
+                  <h6>{{ email }}</h6>
+                  <a v-bind:href="personal_site" class="btn btn-just-icon btn-link btn-dribbble">
+                    <i class="fa fa-dribbble"></i>
+                  </a>
+                  <a
+                    v-bind:href="`https://twitter.com/${twitter_handle}`"
+                    class="btn btn-just-icon btn-link btn-twitter"
+                  >
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a v-bind:href="linkedin_url" class="btn btn-just-icon btn-link btn-linkedin">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
           <div class="description text-center">
             <p>
-              An artist of considerable range, Chet Faker &#x2014; the name taken by Melbourne-raised, Brooklyn-based
-              Nick Murphy &#x2014; writes, performs and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure.
+              {{ short_bio }}
             </p>
           </div>
           <div class="row">
@@ -83,9 +88,16 @@
               <!-- Insert content related to personal section -->
               <div class="row">
                 <div class="col-md-3 ml-auto">
-                  <p>Name: Chikondi</p>
+                  
+                  <p><span class="description">First Name:</span><h6>{{first_name}}</h6></p>
+                   <p><span class="description">Last Name:</span><h6>{{last_name}}</h6></p>
+                   <p><span class="description">Email:</span><h6>{{email}}</h6></p>
                 </div>
-                <div class="col-md-3 mr-auto"></div>
+                <div class="col-md-3 mr-auto">
+                   <p><span class="description">Contact:</span><h6>{{phone}}</h6></p>
+                   <p><span class="description">Github</span><h6>{{github_url}}</h6></p>
+                   <p><span class="description">Twitter:</span><h6></h6>https://twitter.com/{{twitter_handle}}</p>
+                </div>
               </div>
             </div>
             <!-- end of personal section -->
@@ -131,13 +143,33 @@
 <style></style>
 
 <script>
+import axios from "axios";
+
 export default {
   data: function() {
     return {
       message: "Personal Resume",
+      personalData: [],
+      first_name: "Chikondi",
+      last_name: "Kamvazaana",
+      email: "chikondiman@gmail.com",
+      phone: "2693633987",
+      short_bio: "teacher gone coder",
+      linkedin_url: "http://www.linkedin.com/in/chikondimore",
+      twitter_handle: "chikondimore",
+      personal_site: "http://www.chikondiman.com",
+      online_resume_url: "",
+      github_url: "http://www.github.com/chikondiman",
+      photo_url:
+        "https://avatars0.githubusercontent.com/u/61444123?s=460&u=cbf80e36ca02b777f8be3f04e25507647f29d19b&v=4",
     };
   },
-  created: function() {},
+  // created: function() {
+  //   axios.get("/api/resumeapi").then( response => {
+  //     console.log(response.data)
+  //     this.personalData = response.data
+  //   });
+  // },
   methods: {},
 };
 </script>
