@@ -12,9 +12,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/students">students</a>
-      </li>
+      
       <li class="nav-item">
         <a v-if="isLoggedIn()" class="nav-link disabled" href="/login">Login</a>
       </li>

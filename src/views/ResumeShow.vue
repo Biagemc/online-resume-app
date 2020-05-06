@@ -127,6 +127,16 @@
               <!-- Insert content related to skills section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
+                <ul class="list-group">
+                <li class="list-group-item">Ruby</li>
+                <li class="list-group-item">Ruby on Rails</li>
+                <li class="list-group-item">Vue.js</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">Github</li>
+                <li class="list-group-item">Javascript</li>
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">Java</li>
+              </ul>
                 <div class="col-md-3 mr-auto"></div>
               </div>
             </div>
