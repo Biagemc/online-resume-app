@@ -37,7 +37,9 @@
           </div>
           <div class="description text-center">
             <p>
+
               {{ short_bio }}
+
             </p>
           </div>
           <div class="row">
@@ -54,6 +56,7 @@
                     <a class="nav-link" href="#experiences" role="tab" data-toggle="tab">
                       <i class="material-icons">palette</i>
                       Experiences
+                      
                     </a>
                   </li>
                   <li class="nav-item">
@@ -105,7 +108,18 @@
               <!-- Insert content related to experiences section -->
               <div class="row">
                 <div class="col-md-3 ml-auto"></div>
-                <div class="col-md-3 mr-auto"></div>
+                <div>
+                  <div class="jumbotron">
+                    <h1 class="display-4">Actualize Coding Bootcamp</h1>
+                    <p class="lead">Apprentice</p>
+                    <hr class="my-4">
+                    <p>Chicago, Illinois, United States</p>
+                    <p>Actualize is an intensive 18 week program focusing on full stack web development. I was challenged every day to learn and use new technologies and ideas. A lot of focus was on how to think like a developer.</p>
+                    <p class="lead">
+                      <a class="btn btn-primary btn-sm" href="https://anyonecanlearntocode.com/" role="button">Website</a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- end of experiences section -->
